@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  app:
+    container_name: royal-card-app
+    build:
+      context: .
+    ports:
+      - 8080:80
+    networks:
+      - royal-card
+
+networks:
+  royal-card:

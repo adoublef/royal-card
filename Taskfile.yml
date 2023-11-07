@@ -1,0 +1,30 @@
+version: '3'
+
+tasks:
+  list:
+    desc: list tasks
+    cmds:
+      - task --list-all
+
+  freeze:
+    desc: freeze deps
+    cmds:
+      - pip freeze > requirements.txt
+
+  stop:
+    desc: terminate application
+    cmds:
+      - docker-compose down --volumes
+
+  start:
+    desc: run application
+    deps:
+      - stop
+      - freeze
+    cmds:
+      - docker-compose up -d --build --force-recreate
+
+  logs:
+    desc: run logs
+    cmds:
+      - docker-compose logs -f

@@ -1,7 +1,5 @@
 # Royal-Card 🃏
 
-## Overview
-
 Keep track upcoming events, tasks, and meetings with this user-friendly event management application. Features include a convenient calendar view to help you organize your schedule with ease.
 
 ## Technologies

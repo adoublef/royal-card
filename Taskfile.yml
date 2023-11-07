@@ -28,3 +28,10 @@ tasks:
     desc: run logs
     cmds:
       - docker-compose logs -f
+
+  test:
+    desc: testing application
+    deps:
+      - freeze
+    cmds:
+      - pytest

@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def handle_index() -> str:
+def handle_index():
     return "Hello, World!"    
 
 if __name__ == "__main__":

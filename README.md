@@ -52,9 +52,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions or need assistance, feel free to [open an issue](https://github.com/your-github-repo/issues) or [contact us](mailto:your-email@example.com).
 
 Enjoy using the Event Manager Web Application!
-
----
-
-## Resources
-
-- [organisation](https://fastapi.tiangolo.com/tutorial/bigger-applications/)

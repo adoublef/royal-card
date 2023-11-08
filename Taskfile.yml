@@ -30,7 +30,7 @@ tasks:
       - docker-compose logs -f
 
   test:
-    desc: testing application
+    desc: testing python application
     deps:
       - freeze
     cmds:
